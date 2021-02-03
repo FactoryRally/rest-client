@@ -1,0 +1,30 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30717.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tgm.Roborally.Api", "src\Tgm.Roborally.Api\Tgm.Roborally.Api.csproj", "{FC9EBC03-9476-474A-870C-DAE385D21B77}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tgm.Roborally.Api.Test", "src\Tgm.Roborally.Api.Test\Tgm.Roborally.Api.Test.csproj", "{19F1DEBC-DE5E-4517-8062-F000CD499087}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FC9EBC03-9476-474A-870C-DAE385D21B77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC9EBC03-9476-474A-870C-DAE385D21B77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC9EBC03-9476-474A-870C-DAE385D21B77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC9EBC03-9476-474A-870C-DAE385D21B77}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19F1DEBC-DE5E-4517-8062-F000CD499087}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19F1DEBC-DE5E-4517-8062-F000CD499087}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19F1DEBC-DE5E-4517-8062-F000CD499087}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19F1DEBC-DE5E-4517-8062-F000CD499087}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1CF351F0-505B-4FCC-BAD8-92DBFF1B7530}
+	EndGlobalSection
+EndGlobal

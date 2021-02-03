@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\Nils\.nuget\packages\xunit.runner.visualstudio\2.4.1\build\netcoreapp1.0\xunit.runner.reporters.netcoreapp10.dll" t="Include" />
+    <e p="C:\Users\Nils\.nuget\packages\xunit.runner.visualstudio\2.4.1\build\netcoreapp1.0\xunit.runner.utility.netcoreapp10.dll" t="Include" />
+    <e p="C:\Users\Nils\.nuget\packages\xunit.runner.visualstudio\2.4.1\build\netcoreapp1.0\xunit.runner.visualstudio.dotnetcore.testadapter.dll" t="Include" />
+    <e p="C:\Users\Nils\AppData\Local\JetBrains\Rider2020.3\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Nils\AppData\Local\JetBrains\Rider2020.3\resharper-host\Local\Transient\Rider\v203\SolutionCaches\_Tgm.Roborally.Api.-1780460691.00" t="ExcludeRecursive" />
+    <e p="D:\Users\Nils\Desktop\Schule\alt\Jahrgang 4\ITP\robot-rally\game-controller\client" t="IncludeFlat">
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="src\Tgm.Roborally.Api" t="IncludeRecursive">
+        <e p="Api" t="Include">
+          <e p="ConsumerApi.cs" t="Include" />
+          <e p="EventHandlingApi.cs" t="Include" />
+          <e p="GameApi.cs" t="Include" />
+          <e p="MapApi.cs" t="Include" />
+          <e p="MapRepoApi.cs" t="Include" />
+          <e p="PlayersApi.cs" t="Include" />
+          <e p="RobotsApi.cs" t="Include" />
+          <e p="UpgradesApi.cs" t="Include" />
+        </e>
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="client" t="Include">
+          <e p="ApiClient.cs" t="Include" />
+          <e p="ApiException.cs" t="Include" />
+          <e p="ApiResponse.cs" t="Include" />
+          <e p="ClientUtils.cs" t="Include" />
+          <e p="Configuration.cs" t="Include" />
+          <e p="ExceptionFactory.cs" t="Include" />
+          <e p="GlobalConfiguration.cs" t="Include" />
+          <e p="HttpMethod.cs" t="Include" />
+          <e p="IApiAccessor.cs" t="Include" />
+          <e p="IAsynchronousClient.cs" t="Include" />
+          <e p="IReadableConfiguration.cs" t="Include" />
+          <e p="ISynchronousClient.cs" t="Include" />
+          <e p="Multimap.cs" t="Include" />
+          <e p="OpenAPIDateConverter.cs" t="Include" />
+          <e p="RequestOptions.cs" t="Include" />
+        </e>
+        <e p="Model" t="Include">
+          <e p="Action.cs" t="Include" />
+          <e p="ActionType.cs" t="Include" />
+          <e p="Checkpoint.cs" t="Include" />
+          <e p="CheckpointAllOf.cs" t="Include" />
+          <e p="ConsumerRegistration.cs" t="Include" />
+          <e p="DamageEvent.cs" t="Include" />
+          <e p="Direction.cs" t="Include" />
+          <e p="EnergyGainEvent.cs" t="Include" />
+          <e p="Entity.cs" t="Include" />
+          <e p="EntityAction.cs" t="Include" />
+          <e p="EntityActionPhase.cs" t="Include" />
+          <e p="EntityActionType.cs" t="Include" />
+          <e p="EntityEventOportunity.cs" t="Include" />
+          <e p="EntityUseUpgradeAction.cs" t="Include" />
+          <e p="ErrorMessage.cs" t="Include" />
+          <e p="EventType.cs" t="Include" />
+          <e p="Game.cs" t="Include" />
+          <e p="GameInfo.cs" t="Include" />
+          <e p="GamePhaseChangeEvent.cs" t="Include" />
+          <e p="GameRules.cs" t="Include" />
+          <e p="GameState.cs" t="Include" />
+          <e p="GenericEvent.cs" t="Include" />
+          <e p="HealEvent.cs" t="Include" />
+          <e p="Instruction.cs" t="Include" />
+          <e p="JoinEvent.cs" t="Include" />
+          <e p="JoinResponse.cs" t="Include" />
+          <e p="LazerHitEvent.cs" t="Include" />
+          <e p="Map.cs" t="Include" />
+          <e p="MapEvent.cs" t="Include" />
+          <e p="MapEventType.cs" t="Include" />
+          <e p="MapInfo.cs" t="Include" />
+          <e p="MovementEvent.cs" t="Include" />
+          <e p="Pair.cs" t="Include" />
+          <e p="PauseEvent.cs" t="Include" />
+          <e p="Player.cs" t="Include" />
+          <e p="Position.cs" t="Include" />
+          <e p="PushEvent.cs" t="Include" />
+          <e p="RobotCommand.cs" t="Include" />
+          <e p="RobotInfo.cs" t="Include" />
+          <e p="RobotInfoAllOf.cs" t="Include" />
+          <e p="RobotPickEvent.cs" t="Include" />
+          <e p="Robots.cs" t="Include" />
+          <e p="RobotStartExecEvent.cs" t="Include" />
+          <e p="Rotation.cs" t="Include" />
+          <e p="RotatorPosition.cs" t="Include" />
+          <e p="RoundPhase.cs" t="Include" />
+          <e p="ShootEvent.cs" t="Include" />
+          <e p="ShutdownEvent.cs" t="Include" />
+          <e p="SimpleUpgradeActivation.cs" t="Include" />
+          <e p="SimpleUpgradeActivationAllOf.cs" t="Include" />
+          <e p="Tile.cs" t="Include" />
+          <e p="TileType.cs" t="Include" />
+          <e p="Upgrade.cs" t="Include" />
+          <e p="UpgradeShop.cs" t="Include" />
+          <e p="UpgradeShopInformation.cs" t="Include" />
+          <e p="UpgradeType.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="Tgm.Roborally.Api.csproj" t="IncludeRecursive" />
+      </e>
+      <e p="src\Tgm.Roborally.Api.Test" t="IncludeRecursive">
+        <e p="Api" t="Include">
+          <e p="ConsumerApiTests.cs" t="Include" />
+          <e p="EventHandlingApiTests.cs" t="Include" />
+          <e p="GameApiTests.cs" t="Include" />
+          <e p="MapApiTests.cs" t="Include" />
+          <e p="MapRepoApiTests.cs" t="Include" />
+          <e p="PlayersApiTests.cs" t="Include" />
+          <e p="RobotsApiTests.cs" t="Include" />
+          <e p="UpgradesApiTests.cs" t="Include" />
+        </e>
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Model" t="Include">
+          <e p="ActionTests.cs" t="Include" />
+          <e p="ActionTypeTests.cs" t="Include" />
+          <e p="CheckpointAllOfTests.cs" t="Include" />
+          <e p="CheckpointTests.cs" t="Include" />
+          <e p="ConsumerRegistrationTests.cs" t="Include" />
+          <e p="DamageEventTests.cs" t="Include" />
+          <e p="DirectionTests.cs" t="Include" />
+          <e p="EnergyGainEventTests.cs" t="Include" />
+          <e p="EntityActionPhaseTests.cs" t="Include" />
+          <e p="EntityActionTests.cs" t="Include" />
+          <e p="EntityActionTypeTests.cs" t="Include" />
+          <e p="EntityEventOportunityTests.cs" t="Include" />
+          <e p="EntityTests.cs" t="Include" />
+          <e p="EntityUseUpgradeActionTests.cs" t="Include" />
+          <e p="ErrorMessageTests.cs" t="Include" />
+          <e p="EventTypeTests.cs" t="Include" />
+          <e p="GameInfoTests.cs" t="Include" />
+          <e p="GamePhaseChangeEventTests.cs" t="Include" />
+          <e p="GameRulesTests.cs" t="Include" />
+          <e p="GameStateTests.cs" t="Include" />
+          <e p="GameTests.cs" t="Include" />
+          <e p="GenericEventTests.cs" t="Include" />
+          <e p="HealEventTests.cs" t="Include" />
+          <e p="InstructionTests.cs" t="Include" />
+          <e p="JoinEventTests.cs" t="Include" />
+          <e p="JoinResponseTests.cs" t="Include" />
+          <e p="LazerHitEventTests.cs" t="Include" />
+          <e p="MapEventTests.cs" t="Include" />
+          <e p="MapEventTypeTests.cs" t="Include" />
+          <e p="MapInfoTests.cs" t="Include" />
+          <e p="MapTests.cs" t="Include" />
+          <e p="MovementEventTests.cs" t="Include" />
+          <e p="PairTests.cs" t="Include" />
+          <e p="PauseEventTests.cs" t="Include" />
+          <e p="PlayerTests.cs" t="Include" />
+          <e p="PositionTests.cs" t="Include" />
+          <e p="PushEventTests.cs" t="Include" />
+          <e p="RobotCommandTests.cs" t="Include" />
+          <e p="RobotInfoAllOfTests.cs" t="Include" />
+          <e p="RobotInfoTests.cs" t="Include" />
+          <e p="RobotPickEventTests.cs" t="Include" />
+          <e p="RobotStartExecEventTests.cs" t="Include" />
+          <e p="RobotsTests.cs" t="Include" />
+          <e p="RotationTests.cs" t="Include" />
+          <e p="RotatorPositionTests.cs" t="Include" />
+          <e p="RoundPhaseTests.cs" t="Include" />
+          <e p="ShootEventTests.cs" t="Include" />
+          <e p="ShutdownEventTests.cs" t="Include" />
+          <e p="SimpleUpgradeActivationAllOfTests.cs" t="Include" />
+          <e p="SimpleUpgradeActivationTests.cs" t="Include" />
+          <e p="TileTests.cs" t="Include" />
+          <e p="TileTypeTests.cs" t="Include" />
+          <e p="UpgradeShopInformationTests.cs" t="Include" />
+          <e p="UpgradeShopTests.cs" t="Include" />
+          <e p="UpgradeTests.cs" t="Include" />
+          <e p="UpgradeTypeTests.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.0" t="Include">
+              <e p="Tgm.Roborally.Api.Test.AssemblyInfo.cs" t="Include" />
+              <e p="Tgm.Roborally.Api.Test.Program.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Tgm.Roborally.Api.Test.csproj" t="IncludeRecursive" />
+      </e>
+      <e p="Tgm.Roborally.Api.sln" t="IncludeFlat" />
+    </e>
+  </component>
+</project>
