@@ -41,10 +41,11 @@ namespace Tgm.Roborally.Api.Model
         /// </summary>
         /// <param name="id">This id uniquely identifys the player (in a game).   **Not** to be confused with the &#x60;uid&#x60; which is used for authentication (required).</param>
         /// <param name="pat">The uid is the key for the joined player. You need this key for authentication (required).</param>
-        public JoinResponse(int id = default(int), int pat = default(int))
+        public JoinResponse(int id = default(int), string pat = default(string))
         {
             this.Id = id;
-            this.Pat = pat;
+            // to ensure "pat" is required (not null)
+            this.Pat = pat ?? throw new ArgumentNullException("pat is a required property for JoinResponse and cannot be null");
         }
         
         /// <summary>
@@ -59,7 +60,7 @@ namespace Tgm.Roborally.Api.Model
         /// </summary>
         /// <value>The uid is the key for the joined player. You need this key for authentication</value>
         [DataMember(Name="pat", EmitDefaultValue=false)]
-        public int Pat { get; set; }
+        public string Pat { get; set; }
 
         /// <summary>
         /// Returns the string presentation of the object
@@ -111,7 +112,8 @@ namespace Tgm.Roborally.Api.Model
                 ) && 
                 (
                     this.Pat == input.Pat ||
-                    this.Pat.Equals(input.Pat)
+                    (this.Pat != null &&
+                    this.Pat.Equals(input.Pat))
                 );
         }
 
@@ -125,7 +127,8 @@ namespace Tgm.Roborally.Api.Model
             {
                 int hashCode = 41;
                 hashCode = hashCode * 59 + this.Id.GetHashCode();
-                hashCode = hashCode * 59 + this.Pat.GetHashCode();
+                if (this.Pat != null)
+                    hashCode = hashCode * 59 + this.Pat.GetHashCode();
                 return hashCode;
             }
         }
@@ -147,18 +150,6 @@ namespace Tgm.Roborally.Api.Model
             if(this.Id < (int)0)
             {
                 yield return new System.ComponentModel.DataAnnotations.ValidationResult("Invalid value for Id, must be a value greater than or equal to 0.", new [] { "Id" });
-            }
-
-            // Pat (int) maximum
-            if(this.Pat > (int)99999999)
-            {
-                yield return new System.ComponentModel.DataAnnotations.ValidationResult("Invalid value for Pat, must be a value less than or equal to 99999999.", new [] { "Pat" });
-            }
-
-            // Pat (int) minimum
-            if(this.Pat < (int)9999)
-            {
-                yield return new System.ComponentModel.DataAnnotations.ValidationResult("Invalid value for Pat, must be a value greater than or equal to 9999.", new [] { "Pat" });
             }
 
             yield break;
