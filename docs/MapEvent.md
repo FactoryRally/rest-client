@@ -5,6 +5,7 @@ Events that takes place with the active components of the map
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **Type** | **MapEventType** |  | [optional] 
+**Position** | [**Position**](Position.md) |  | [optional] 
 
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
 

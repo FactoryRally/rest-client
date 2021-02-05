@@ -409,7 +409,7 @@ Name | Type | Description  | Notes
 
 <a name="getpossibleactions"></a>
 # **GetPossibleActions**
-> List&lt;EntityEventOportunity&gt; GetPossibleActions (int gameId, string robotId)
+> List&lt;EntityEventOportunity&gt; GetPossibleActions (int gameId, int robotId)
 
 Get Aviable actions
 
@@ -437,8 +437,8 @@ namespace Example
             // config.AddApiKeyPrefix("pat", "Bearer");
 
             var apiInstance = new RobotsApi(config);
-            var gameId = 56;  // int | 
-            var robotId = robotId_example;  // string | 
+            var gameId = 56;  // int | The id of the game to interact with
+            var robotId = 56;  // int | the id of the robot to interact with
 
             try
             {
@@ -461,8 +461,8 @@ namespace Example
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **gameId** | **int**|  | 
- **robotId** | **string**|  | 
+ **gameId** | **int**| The id of the game to interact with | 
+ **robotId** | **int**| the id of the robot to interact with | 
 
 ### Return type
 
@@ -829,7 +829,7 @@ namespace Example
             var apiInstance = new RobotsApi(config);
             var gameId = 56;  // int | 
             var robotId = 56;  // int | 
-            var upgrade = 56;  // int? |  (optional) 
+            var upgrade = 56;  // int? | The id of the upgrade to remove (optional) 
 
             try
             {
@@ -853,7 +853,7 @@ Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **gameId** | **int**|  | 
  **robotId** | **int**|  | 
- **upgrade** | **int?**|  | [optional] 
+ **upgrade** | **int?**| The id of the upgrade to remove | [optional] 
 
 ### Return type
 
