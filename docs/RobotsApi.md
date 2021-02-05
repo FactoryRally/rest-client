@@ -48,8 +48,8 @@ namespace Example
             // config.AddApiKeyPrefix("pat", "Bearer");
 
             var apiInstance = new RobotsApi(config);
-            var gameId = 56;  // int | 
-            var robotId = 56;  // int | 
+            var gameId = 56;  // int | The id of the game to interact with
+            var robotId = 56;  // int | the id of the robot to interact with
 
             try
             {
@@ -71,8 +71,8 @@ namespace Example
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **gameId** | **int**|  | 
- **robotId** | **int**|  | 
+ **gameId** | **int**| The id of the game to interact with | 
+ **robotId** | **int**| the id of the robot to interact with | 
 
 ### Return type
 
@@ -125,8 +125,8 @@ namespace Example
             // config.AddApiKeyPrefix("pat", "Bearer");
 
             var apiInstance = new RobotsApi(config);
-            var gameId = 56;  // int | 
-            var robotId = 56;  // int | 
+            var gameId = 56;  // int | The id of the game to interact with
+            var robotId = 56;  // int | the id of the robot to interact with
 
             try
             {
@@ -148,8 +148,8 @@ namespace Example
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **gameId** | **int**|  | 
- **robotId** | **int**|  | 
+ **gameId** | **int**| The id of the game to interact with | 
+ **robotId** | **int**| the id of the robot to interact with | 
 
 ### Return type
 
@@ -174,7 +174,7 @@ void (empty response body)
 
 <a name="doentityaction"></a>
 # **DoEntityAction**
-> void DoEntityAction (int gameId, string robotId, EntityAction entityAction = null)
+> void DoEntityAction (int gameId, int robotId, EntityAction entityAction = null)
 
 Add Entity Action to stack
 
@@ -202,8 +202,8 @@ namespace Example
             // config.AddApiKeyPrefix("pat", "Bearer");
 
             var apiInstance = new RobotsApi(config);
-            var gameId = 56;  // int | 
-            var robotId = robotId_example;  // string | 
+            var gameId = 56;  // int | The id of the game to interact with
+            var robotId = 56;  // int | the id of the robot to interact with
             var entityAction = new EntityAction(); // EntityAction |  (optional) 
 
             try
@@ -226,8 +226,8 @@ namespace Example
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **gameId** | **int**|  | 
- **robotId** | **string**|  | 
+ **gameId** | **int**| The id of the game to interact with | 
+ **robotId** | **int**| the id of the robot to interact with | 
  **entityAction** | [**EntityAction**](EntityAction.md)|  | [optional] 
 
 ### Return type
@@ -253,7 +253,7 @@ void (empty response body)
 
 <a name="getactionstack"></a>
 # **GetActionStack**
-> List&lt;EntityAction&gt; GetActionStack (int gameId, string robotId)
+> List&lt;EntityAction&gt; GetActionStack (int gameId, int robotId)
 
 Get Robot action stack
 
@@ -281,8 +281,8 @@ namespace Example
             // config.AddApiKeyPrefix("pat", "Bearer");
 
             var apiInstance = new RobotsApi(config);
-            var gameId = 56;  // int | 
-            var robotId = robotId_example;  // string | 
+            var gameId = 56;  // int | The id of the game to interact with
+            var robotId = 56;  // int | the id of the robot to interact with
 
             try
             {
@@ -305,8 +305,8 @@ namespace Example
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **gameId** | **int**|  | 
- **robotId** | **string**|  | 
+ **gameId** | **int**| The id of the game to interact with | 
+ **robotId** | **int**| the id of the robot to interact with | 
 
 ### Return type
 
@@ -359,8 +359,8 @@ namespace Example
             // config.AddApiKeyPrefix("pat", "Bearer");
 
             var apiInstance = new RobotsApi(config);
-            var gameId = 56;  // int | 
-            var robotId = 56;  // int | 
+            var gameId = 56;  // int | The id of the game to interact with
+            var robotId = 56;  // int | the id of the robot to interact with
 
             try
             {
@@ -383,8 +383,8 @@ namespace Example
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **gameId** | **int**|  | 
- **robotId** | **int**|  | 
+ **gameId** | **int**| The id of the game to interact with | 
+ **robotId** | **int**| the id of the robot to interact with | 
 
 ### Return type
 
@@ -515,8 +515,8 @@ namespace Example
             // config.AddApiKeyPrefix("pat", "Bearer");
 
             var apiInstance = new RobotsApi(config);
-            var gameId = 56;  // int | 
-            var robotId = 56;  // int | 
+            var gameId = 56;  // int | The id of the game to interact with
+            var robotId = 56;  // int | the id of the robot to interact with
             var register = 56;  // int | The number of the register
 
             try
@@ -540,8 +540,8 @@ namespace Example
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **gameId** | **int**|  | 
- **robotId** | **int**|  | 
+ **gameId** | **int**| The id of the game to interact with | 
+ **robotId** | **int**| the id of the robot to interact with | 
  **register** | **int**| The number of the register | 
 
 ### Return type
@@ -595,8 +595,8 @@ namespace Example
             // config.AddApiKeyPrefix("pat", "Bearer");
 
             var apiInstance = new RobotsApi(config);
-            var gameId = 56;  // int | 
-            var robotId = 56;  // int | 
+            var gameId = 56;  // int | The id of the game to interact with
+            var robotId = 56;  // int | the id of the robot to interact with
 
             try
             {
@@ -619,8 +619,8 @@ namespace Example
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **gameId** | **int**|  | 
- **robotId** | **int**|  | 
+ **gameId** | **int**| The id of the game to interact with | 
+ **robotId** | **int**| the id of the robot to interact with | 
 
 ### Return type
 
@@ -645,7 +645,7 @@ Name | Type | Description  | Notes
 
 <a name="getrobotstats"></a>
 # **GetRobotStats**
-> RobotInfo GetRobotStats (int gameId, string robotId)
+> RobotInfo GetRobotStats (int gameId, int robotId)
 
 Get Robot Informations
 
@@ -673,8 +673,8 @@ namespace Example
             // config.AddApiKeyPrefix("pat", "Bearer");
 
             var apiInstance = new RobotsApi(config);
-            var gameId = 56;  // int | 
-            var robotId = robotId_example;  // string | 
+            var gameId = 56;  // int | The id of the game to interact with
+            var robotId = 56;  // int | the id of the robot to interact with
 
             try
             {
@@ -697,8 +697,8 @@ namespace Example
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **gameId** | **int**|  | 
- **robotId** | **string**|  | 
+ **gameId** | **int**| The id of the game to interact with | 
+ **robotId** | **int**| the id of the robot to interact with | 
 
 ### Return type
 
@@ -751,7 +751,7 @@ namespace Example
             // config.AddApiKeyPrefix("pat", "Bearer");
 
             var apiInstance = new RobotsApi(config);
-            var gameId = 56;  // int | 
+            var gameId = 56;  // int | The id of the game to interact with
 
             try
             {
@@ -774,7 +774,7 @@ namespace Example
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **gameId** | **int**|  | 
+ **gameId** | **int**| The id of the game to interact with | 
 
 ### Return type
 
@@ -827,8 +827,8 @@ namespace Example
             // config.AddApiKeyPrefix("pat", "Bearer");
 
             var apiInstance = new RobotsApi(config);
-            var gameId = 56;  // int | 
-            var robotId = 56;  // int | 
+            var gameId = 56;  // int | The id of the game to interact with
+            var robotId = 56;  // int | the id of the robot to interact with
             var upgrade = 56;  // int? | The id of the upgrade to remove (optional) 
 
             try
@@ -851,8 +851,8 @@ namespace Example
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **gameId** | **int**|  | 
- **robotId** | **int**|  | 
+ **gameId** | **int**| The id of the game to interact with | 
+ **robotId** | **int**| the id of the robot to interact with | 
  **upgrade** | **int?**| The id of the upgrade to remove | [optional] 
 
 ### Return type
@@ -906,8 +906,8 @@ namespace Example
             // config.AddApiKeyPrefix("pat", "Bearer");
 
             var apiInstance = new RobotsApi(config);
-            var gameId = 56;  // int | 
-            var robotId = 56;  // int | 
+            var gameId = 56;  // int | The id of the game to interact with
+            var robotId = 56;  // int | the id of the robot to interact with
             var register = 56;  // int | The number of the register
             var statementId = 56;  // int | The Id of the statement to place here
 
@@ -931,8 +931,8 @@ namespace Example
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **gameId** | **int**|  | 
- **robotId** | **int**|  | 
+ **gameId** | **int**| The id of the game to interact with | 
+ **robotId** | **int**| the id of the robot to interact with | 
  **register** | **int**| The number of the register | 
  **statementId** | **int**| The Id of the statement to place here | 
 

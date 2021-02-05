@@ -38,7 +38,7 @@ namespace Example
             // config.AddApiKeyPrefix("pat", "Bearer");
 
             var apiInstance = new EventHandlingApi(config);
-            var gameId = 56;  // int | 
+            var gameId = 56;  // int | The id of the game to interact with
 
             try
             {
@@ -61,7 +61,7 @@ namespace Example
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **gameId** | **int**|  | 
+ **gameId** | **int**| The id of the game to interact with | 
 
 ### Return type
 
@@ -114,7 +114,7 @@ namespace Example
             // config.AddApiKeyPrefix("pat", "Bearer");
 
             var apiInstance = new EventHandlingApi(config);
-            var gameId = 56;  // int | 
+            var gameId = 56;  // int | The id of the game to interact with
             var wait = true;  // bool | If true the server will not responde until a event is added to the queue  Rrequires less traffic but might impacts the servers performance or cause timeouts at the client (default to false)
             var batch = true;  // bool? | If true you will get all past events at once If false the list only contains the oldest unfetched event (optional)  (default to false)
 
@@ -139,7 +139,7 @@ namespace Example
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **gameId** | **int**|  | 
+ **gameId** | **int**| The id of the game to interact with | 
  **wait** | **bool**| If true the server will not responde until a event is added to the queue  Rrequires less traffic but might impacts the servers performance or cause timeouts at the client | [default to false]
  **batch** | **bool?**| If true you will get all past events at once If false the list only contains the oldest unfetched event | [optional] [default to false]
 

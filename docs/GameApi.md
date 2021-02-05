@@ -44,7 +44,7 @@ namespace Example
             // config.AddApiKeyPrefix("skey", "Bearer");
 
             var apiInstance = new GameApi(config);
-            var gameId = 56;  // int | 
+            var gameId = 56;  // int | The id of the game to interact with
             var action = ;  // ActionType | 
 
             try
@@ -67,7 +67,7 @@ namespace Example
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **gameId** | **int**|  | 
+ **gameId** | **int**| The id of the game to interact with | 
  **action** | **ActionType**|  | 
 
 ### Return type
@@ -197,7 +197,7 @@ namespace Example
             // config.AddApiKeyPrefix("skey", "Bearer");
 
             var apiInstance = new GameApi(config);
-            var gameId = 56;  // int | 
+            var gameId = 56;  // int | The id of the game to interact with
             var mode = mode_example;  // string | Defines wich entries to return (optional)  (default to ALL)
 
             try
@@ -221,7 +221,7 @@ namespace Example
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **gameId** | **int**|  | 
+ **gameId** | **int**| The id of the game to interact with | 
  **mode** | **string**| Defines wich entries to return | [optional] [default to ALL]
 
 ### Return type
@@ -271,7 +271,7 @@ namespace Example
             Configuration config = new Configuration();
             config.BasePath = "http://game.host/v1";
             var apiInstance = new GameApi(config);
-            var gameId = 56;  // int | 
+            var gameId = 56;  // int | The id of the game to interact with
 
             try
             {
@@ -294,7 +294,7 @@ namespace Example
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **gameId** | **int**|  | 
+ **gameId** | **int**| The id of the game to interact with | 
 
 ### Return type
 
@@ -419,7 +419,7 @@ namespace Example
             // config.AddApiKeyPrefix("pat", "Bearer");
 
             var apiInstance = new GameApi(config);
-            var gameId = 56;  // int | 
+            var gameId = 56;  // int | The id of the game to interact with
             var statementId = 56;  // int | The id of the programming card
 
             try
@@ -443,7 +443,7 @@ namespace Example
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **gameId** | **int**|  | 
+ **gameId** | **int**| The id of the game to interact with | 
  **statementId** | **int**| The id of the programming card | 
 
 ### Return type

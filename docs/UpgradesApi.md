@@ -115,7 +115,7 @@ namespace Example
             // config.AddApiKeyPrefix("pat", "Bearer");
 
             var apiInstance = new UpgradesApi(config);
-            var gameId = 56;  // int | 
+            var gameId = 56;  // int | The id of the game to interact with
 
             try
             {
@@ -138,7 +138,7 @@ namespace Example
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **gameId** | **int**|  | 
+ **gameId** | **int**| The id of the game to interact with | 
 
 ### Return type
 
@@ -191,8 +191,8 @@ namespace Example
             // config.AddApiKeyPrefix("pat", "Bearer");
 
             var apiInstance = new UpgradesApi(config);
-            var gameId = 56;  // int | 
-            var upgradeId = 56;  // int | 
+            var gameId = 56;  // int | The id of the game to interact with
+            var upgradeId = 56;  // int | The id of the upgrade to interact with
 
             try
             {
@@ -215,8 +215,8 @@ namespace Example
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **gameId** | **int**|  | 
- **upgradeId** | **int**|  | 
+ **gameId** | **int**| The id of the game to interact with | 
+ **upgradeId** | **int**| The id of the upgrade to interact with | 
 
 ### Return type
 
@@ -269,7 +269,7 @@ namespace Example
             // config.AddApiKeyPrefix("pat", "Bearer");
 
             var apiInstance = new UpgradesApi(config);
-            var gameId = 56;  // int | 
+            var gameId = 56;  // int | The id of the game to interact with
 
             try
             {
@@ -292,7 +292,7 @@ namespace Example
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **gameId** | **int**|  | 
+ **gameId** | **int**| The id of the game to interact with | 
 
 ### Return type
 

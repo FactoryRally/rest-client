@@ -41,8 +41,8 @@ namespace Example
             // config.AddApiKeyPrefix("pat", "Bearer");
 
             var apiInstance = new PlayersApi(config);
-            var gameId = 56;  // int | 
-            var playerId = 56;  // int | 
+            var gameId = 56;  // int | The id of the game to interact with
+            var playerId = 56;  // int | the id of the player to interact with
             var robots = new List<Robots>(); // List<Robots> | The robots assigned to the player (optional) 
 
             try
@@ -65,8 +65,8 @@ namespace Example
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **gameId** | **int**|  | 
- **playerId** | **int**|  | 
+ **gameId** | **int**| The id of the game to interact with | 
+ **playerId** | **int**| the id of the player to interact with | 
  **robots** | [**List&lt;Robots&gt;**](Robots.md)| The robots assigned to the player | [optional] 
 
 ### Return type
@@ -114,8 +114,13 @@ namespace Example
         {
             Configuration config = new Configuration();
             config.BasePath = "http://game.host/v1";
+            // Configure API key authorization: player-auth
+            config.AddApiKey("pat", "YOUR_API_KEY");
+            // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
+            // config.AddApiKeyPrefix("pat", "Bearer");
+
             var apiInstance = new PlayersApi(config);
-            var gameId = 56;  // int | 
+            var gameId = 56;  // int | The id of the game to interact with
 
             try
             {
@@ -138,7 +143,7 @@ namespace Example
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **gameId** | **int**|  | 
+ **gameId** | **int**| The id of the game to interact with | 
 
 ### Return type
 
@@ -146,7 +151,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[player-auth](../README.md#player-auth)
 
 ### HTTP request headers
 
@@ -185,9 +190,14 @@ namespace Example
         {
             Configuration config = new Configuration();
             config.BasePath = "http://game.host/v1";
+            // Configure API key authorization: player-auth
+            config.AddApiKey("pat", "YOUR_API_KEY");
+            // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
+            // config.AddApiKeyPrefix("pat", "Bearer");
+
             var apiInstance = new PlayersApi(config);
-            var gameId = 56;  // int | 
-            var playerId = 56;  // int | 
+            var gameId = 56;  // int | The id of the game to interact with
+            var playerId = 56;  // int | the id of the player to interact with
 
             try
             {
@@ -210,8 +220,8 @@ namespace Example
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **gameId** | **int**|  | 
- **playerId** | **int**|  | 
+ **gameId** | **int**| The id of the game to interact with | 
+ **playerId** | **int**| the id of the player to interact with | 
 
 ### Return type
 
@@ -219,7 +229,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[player-auth](../README.md#player-auth)
 
 ### HTTP request headers
 
@@ -259,7 +269,7 @@ namespace Example
             Configuration config = new Configuration();
             config.BasePath = "http://game.host/v1";
             var apiInstance = new PlayersApi(config);
-            var gameId = 56;  // int | 
+            var gameId = 56;  // int | The id of the game to interact with
             var password = password_example;  // string | The password of the game if the lobby is password protected (optional) 
             var name = name_example;  // string | The name to be displayed as username (optional) 
 
@@ -284,7 +294,7 @@ namespace Example
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **gameId** | **int**|  | 
+ **gameId** | **int**| The id of the game to interact with | 
  **password** | **string**| The password of the game if the lobby is password protected | [optional] 
  **name** | **string**| The name to be displayed as username | [optional] 
 
@@ -345,8 +355,8 @@ namespace Example
             // config.AddApiKeyPrefix("pat", "Bearer");
 
             var apiInstance = new PlayersApi(config);
-            var gameId = 56;  // int | 
-            var playerId = 56;  // int | 
+            var gameId = 56;  // int | The id of the game to interact with
+            var playerId = 56;  // int | the id of the player to interact with
 
             try
             {
@@ -368,8 +378,8 @@ namespace Example
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **gameId** | **int**|  | 
- **playerId** | **int**|  | 
+ **gameId** | **int**| The id of the game to interact with | 
+ **playerId** | **int**| the id of the player to interact with | 
 
 ### Return type
 

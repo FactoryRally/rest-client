@@ -11,7 +11,7 @@ Method | HTTP request | Description
 
 <a name="getgamemap"></a>
 # **GetGameMap**
-> Map GetGameMap (string gameId)
+> Map GetGameMap (int gameId)
 
 Get Map
 
@@ -39,7 +39,7 @@ namespace Example
             // config.AddApiKeyPrefix("pat", "Bearer");
 
             var apiInstance = new MapApi(config);
-            var gameId = gameId_example;  // string | 
+            var gameId = 56;  // int | The id of the game to interact with
 
             try
             {
@@ -62,7 +62,7 @@ namespace Example
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **gameId** | **string**|  | 
+ **gameId** | **int**| The id of the game to interact with | 
 
 ### Return type
 
@@ -116,7 +116,7 @@ namespace Example
             // config.AddApiKeyPrefix("pat", "Bearer");
 
             var apiInstance = new MapApi(config);
-            var gameId = 56;  // int | 
+            var gameId = 56;  // int | The id of the game to interact with
 
             try
             {
@@ -139,7 +139,7 @@ namespace Example
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **gameId** | **int**|  | 
+ **gameId** | **int**| The id of the game to interact with | 
 
 ### Return type
 
@@ -164,7 +164,7 @@ Name | Type | Description  | Notes
 
 <a name="gettile"></a>
 # **GetTile**
-> Tile GetTile (int gameId, string x, string y)
+> Tile GetTile (int gameId, int x, int y)
 
 Get tile
 
@@ -192,9 +192,9 @@ namespace Example
             // config.AddApiKeyPrefix("pat", "Bearer");
 
             var apiInstance = new MapApi(config);
-            var gameId = 56;  // int | 
-            var x = x_example;  // string | 
-            var y = y_example;  // string | 
+            var gameId = 56;  // int | The id of the game to interact with
+            var x = 56;  // int | The x codinate of the tile
+            var y = 56;  // int | The y codinate of the tile
 
             try
             {
@@ -217,9 +217,9 @@ namespace Example
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **gameId** | **int**|  | 
- **x** | **string**|  | 
- **y** | **string**|  | 
+ **gameId** | **int**| The id of the game to interact with | 
+ **x** | **int**| The x codinate of the tile | 
+ **y** | **int**| The y codinate of the tile | 
 
 ### Return type
 

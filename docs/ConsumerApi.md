@@ -32,7 +32,7 @@ namespace Example
             Configuration config = new Configuration();
             config.BasePath = "http://game.host/v1";
             var apiInstance = new ConsumerApi(config);
-            var gameId = 56;  // int | 
+            var gameId = 56;  // int | The id of the game to interact with
             var consumerRegistration = new ConsumerRegistration(); // ConsumerRegistration | Information about the joining consumer (optional) 
 
             try
@@ -56,7 +56,7 @@ namespace Example
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **gameId** | **int**|  | 
+ **gameId** | **int**| The id of the game to interact with | 
  **consumerRegistration** | [**ConsumerRegistration**](ConsumerRegistration.md)| Information about the joining consumer | [optional] 
 
 ### Return type
