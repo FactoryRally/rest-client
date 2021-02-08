@@ -4,17 +4,17 @@ All URIs are relative to *http://game.host/v1*
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------
-[**ClearRegisters**](RobotsApi.md#clearregisters) | **DELETE** /games/{game_id}/entitys/robots/{robot_id}/registers | clear registers
-[**ClearUpgrades**](RobotsApi.md#clearupgrades) | **DELETE** /games/{game_id}/entitys/robots/{robot_id}/upgrades | Clear Robot Upgrades
-[**DoEntityAction**](RobotsApi.md#doentityaction) | **POST** /games/{game_id}/entitys/robots/{robot_id}/actions/stack/ | Add Entity Action to stack
-[**GetActionStack**](RobotsApi.md#getactionstack) | **GET** /games/{game_id}/entitys/robots/{robot_id}/actions/stack/ | Get Robot action stack
-[**GetInstalledUpgrades**](RobotsApi.md#getinstalledupgrades) | **GET** /games/{game_id}/entitys/robots/{robot_id}/upgrades | Get Robot Upgrades
-[**GetPossibleActions**](RobotsApi.md#getpossibleactions) | **GET** /games/{game_id}/entitys/robots/{robot_id}/actions/avinable | Get Aviable actions
+[**ClearRegisters**](RobotsApi.md#clearregisters) | **DELETE** /games/{game_id}/entities/robots/{robot_id}/registers | clear registers
+[**ClearUpgrades**](RobotsApi.md#clearupgrades) | **DELETE** /games/{game_id}/entities/robots/{robot_id}/upgrades | Clear Robot Upgrades
+[**DoEntityAction**](RobotsApi.md#doentityaction) | **POST** /games/{game_id}/entities/robots/{robot_id}/actions/stack/ | Add Entity Action to stack
+[**GetActionStack**](RobotsApi.md#getactionstack) | **GET** /games/{game_id}/entities/robots/{robot_id}/actions/stack/ | Get Robot action stack
+[**GetInstalledUpgrades**](RobotsApi.md#getinstalledupgrades) | **GET** /games/{game_id}/entities/robots/{robot_id}/upgrades | Get Robot Upgrades
+[**GetPossibleActions**](RobotsApi.md#getpossibleactions) | **GET** /games/{game_id}/entities/robots/{robot_id}/actions/avinable | Get Aviable actions
 [**GetRegisterContent**](RobotsApi.md#getregistercontent) | **GET** /games/{game_id}/entities/robots/{robot_id}/registers/{register} | Get Register Content
-[**GetRegisters**](RobotsApi.md#getregisters) | **GET** /games/{game_id}/entitys/robots/{robot_id}/registers | Get register information
-[**GetRobotStats**](RobotsApi.md#getrobotstats) | **GET** /games/{game_id}/entitys/robots/{robot_id}/info | Get Robot Informations
-[**GetRobots**](RobotsApi.md#getrobots) | **GET** /games/{game_id}/entitys/robots/ | Get all robots
-[**RemoveRobotUpgrade**](RobotsApi.md#removerobotupgrade) | **PATCH** /games/{game_id}/entitys/robots/{robot_id}/upgrades | Remove Upgrade
+[**GetRegisters**](RobotsApi.md#getregisters) | **GET** /games/{game_id}/entities/robots/{robot_id}/registers | Get register information
+[**GetRobotStats**](RobotsApi.md#getrobotstats) | **GET** /games/{game_id}/entities/robots/{robot_id}/info | Get Robot Informations
+[**GetRobots**](RobotsApi.md#getrobots) | **GET** /games/{game_id}/entities/robots/ | Get all robots
+[**RemoveRobotUpgrade**](RobotsApi.md#removerobotupgrade) | **PATCH** /games/{game_id}/entities/robots/{robot_id}/upgrades | Remove Upgrade
 [**SetRegister**](RobotsApi.md#setregister) | **PUT** /games/{game_id}/entities/robots/{robot_id}/registers/{register} | Set Register Content
 
 
