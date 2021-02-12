@@ -26,25 +26,49 @@ using OpenAPIDateConverter = Tgm.Roborally.Api.Client.OpenAPIDateConverter;
 namespace Tgm.Roborally.Api.Model
 {
     /// <summary>
-    /// Occurs when the next phase of the round starts
+    /// When the next game phase started
     /// </summary>
     [DataContract]
-    public partial class RoundPhaseChangedEvent :  IEquatable<RoundPhaseChangedEvent>, IValidatableObject
+    public partial class GamePhaseChangedEvent :  IEquatable<GamePhaseChangedEvent>, IValidatableObject
     {
         /// <summary>
         /// Gets or Sets Phase
         /// </summary>
         [DataMember(Name="phase", EmitDefaultValue=false)]
-        public RoundPhase? Phase { get; set; }
+        public RoundPhase Phase { get; set; }
         /// <summary>
-        /// Initializes a new instance of the <see cref="RoundPhaseChangedEvent" /> class.
+        /// Initializes a new instance of the <see cref="GamePhaseChangedEvent" /> class.
         /// </summary>
-        /// <param name="phase">phase.</param>
-        public RoundPhaseChangedEvent(RoundPhase? phase = default(RoundPhase?))
+        [JsonConstructorAttribute]
+        protected GamePhaseChangedEvent() { }
+        /// <summary>
+        /// Initializes a new instance of the <see cref="GamePhaseChangedEvent" /> class.
+        /// </summary>
+        /// <param name="phase">phase (required).</param>
+        /// <param name="step">WIP! Currently class names. Enum later on  Describes the game phase more deeply (required).</param>
+        /// <param name="information">Unspecified information about the game phase (you can also obtain this information in a typesave way using the GameAPI).</param>
+        public GamePhaseChangedEvent(RoundPhase phase = default(RoundPhase), string step = default(string), Object information = default(Object))
         {
             this.Phase = phase;
+            // to ensure "step" is required (not null)
+            this.Step = step ?? throw new ArgumentNullException("step is a required property for GamePhaseChangedEvent and cannot be null");
+            this.Information = information;
         }
         
+        /// <summary>
+        /// WIP! Currently class names. Enum later on  Describes the game phase more deeply
+        /// </summary>
+        /// <value>WIP! Currently class names. Enum later on  Describes the game phase more deeply</value>
+        [DataMember(Name="step", EmitDefaultValue=false)]
+        public string Step { get; set; }
+
+        /// <summary>
+        /// Unspecified information about the game phase (you can also obtain this information in a typesave way using the GameAPI)
+        /// </summary>
+        /// <value>Unspecified information about the game phase (you can also obtain this information in a typesave way using the GameAPI)</value>
+        [DataMember(Name="information", EmitDefaultValue=false)]
+        public Object Information { get; set; }
+
         /// <summary>
         /// Returns the string presentation of the object
         /// </summary>
@@ -52,8 +76,10 @@ namespace Tgm.Roborally.Api.Model
         public override string ToString()
         {
             var sb = new StringBuilder();
-            sb.Append("class RoundPhaseChangedEvent {\n");
+            sb.Append("class GamePhaseChangedEvent {\n");
             sb.Append("  Phase: ").Append(Phase).Append("\n");
+            sb.Append("  Step: ").Append(Step).Append("\n");
+            sb.Append("  Information: ").Append(Information).Append("\n");
             sb.Append("}\n");
             return sb.ToString();
         }
@@ -74,15 +100,15 @@ namespace Tgm.Roborally.Api.Model
         /// <returns>Boolean</returns>
         public override bool Equals(object input)
         {
-            return this.Equals(input as RoundPhaseChangedEvent);
+            return this.Equals(input as GamePhaseChangedEvent);
         }
 
         /// <summary>
-        /// Returns true if RoundPhaseChangedEvent instances are equal
+        /// Returns true if GamePhaseChangedEvent instances are equal
         /// </summary>
-        /// <param name="input">Instance of RoundPhaseChangedEvent to be compared</param>
+        /// <param name="input">Instance of GamePhaseChangedEvent to be compared</param>
         /// <returns>Boolean</returns>
-        public bool Equals(RoundPhaseChangedEvent input)
+        public bool Equals(GamePhaseChangedEvent input)
         {
             if (input == null)
                 return false;
@@ -91,6 +117,16 @@ namespace Tgm.Roborally.Api.Model
                 (
                     this.Phase == input.Phase ||
                     this.Phase.Equals(input.Phase)
+                ) && 
+                (
+                    this.Step == input.Step ||
+                    (this.Step != null &&
+                    this.Step.Equals(input.Step))
+                ) && 
+                (
+                    this.Information == input.Information ||
+                    (this.Information != null &&
+                    this.Information.Equals(input.Information))
                 );
         }
 
@@ -104,6 +140,10 @@ namespace Tgm.Roborally.Api.Model
             {
                 int hashCode = 41;
                 hashCode = hashCode * 59 + this.Phase.GetHashCode();
+                if (this.Step != null)
+                    hashCode = hashCode * 59 + this.Step.GetHashCode();
+                if (this.Information != null)
+                    hashCode = hashCode * 59 + this.Information.GetHashCode();
                 return hashCode;
             }
         }

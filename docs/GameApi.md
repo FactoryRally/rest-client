@@ -472,6 +472,8 @@ Name | Type | Description  | Notes
 
 Get Programming Card IDs
 
+Get the ids of all programming cards avainable in this game
+
 ### Example
 ```csharp
 using System.Collections.Generic;
