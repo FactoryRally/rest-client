@@ -11,6 +11,7 @@ Name | Type | Description | Notes
 **Name** | **string** | The default rule for names in the game | 
 **MaxPlayers** | **int** | The maximum count of players that can participate in this game | 
 **CurrentPlayers** | **int** | The numbers of players in the game | 
+**ExecutionInfo** | [**GameInfoExecutionInfo**](GameInfoExecutionInfo.md) |  | 
 
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
 

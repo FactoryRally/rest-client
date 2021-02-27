@@ -26,33 +26,40 @@ using OpenAPIDateConverter = Tgm.Roborally.Api.Client.OpenAPIDateConverter;
 namespace Tgm.Roborally.Api.Model
 {
     /// <summary>
-    /// A shop to buy upgrades from. Each element is buyable once and then vanishes from the list
+    /// Information abou the executon cycle
     /// </summary>
     [DataContract]
-    public partial class UpgradeShop :  IEquatable<UpgradeShop>, IValidatableObject
+    public partial class GameInfoExecutionInfo :  IEquatable<GameInfoExecutionInfo>, IValidatableObject
     {
         /// <summary>
-        /// Initializes a new instance of the <see cref="UpgradeShop" /> class.
+        /// Initializes a new instance of the <see cref="GameInfoExecutionInfo" /> class.
         /// </summary>
-        /// <param name="upgrades">upgrades.</param>
-        /// <param name="information">information.</param>
-        public UpgradeShop(List<int> upgrades = default(List<int>), UpgradeShopInformation information = default(UpgradeShopInformation))
+        [JsonConstructorAttribute]
+        protected GameInfoExecutionInfo() { }
+        /// <summary>
+        /// Initializes a new instance of the <see cref="GameInfoExecutionInfo" /> class.
+        /// </summary>
+        /// <param name="currentRegister">The index of the register currently executed (required).</param>
+        /// <param name="currentRobot">The index of the robot currently executing (required).</param>
+        public GameInfoExecutionInfo(int currentRegister = default(int), int currentRobot = default(int))
         {
-            this.Upgrades = upgrades;
-            this.Information = information;
+            this.CurrentRegister = currentRegister;
+            this.CurrentRobot = currentRobot;
         }
         
         /// <summary>
-        /// Gets or Sets Upgrades
+        /// The index of the register currently executed
         /// </summary>
-        [DataMember(Name="upgrades", EmitDefaultValue=false)]
-        public List<int> Upgrades { get; set; }
+        /// <value>The index of the register currently executed</value>
+        [DataMember(Name="currentRegister", EmitDefaultValue=false)]
+        public int CurrentRegister { get; set; }
 
         /// <summary>
-        /// Gets or Sets Information
+        /// The index of the robot currently executing
         /// </summary>
-        [DataMember(Name="information", EmitDefaultValue=false)]
-        public UpgradeShopInformation Information { get; set; }
+        /// <value>The index of the robot currently executing</value>
+        [DataMember(Name="currentRobot", EmitDefaultValue=false)]
+        public int CurrentRobot { get; set; }
 
         /// <summary>
         /// Returns the string presentation of the object
@@ -61,9 +68,9 @@ namespace Tgm.Roborally.Api.Model
         public override string ToString()
         {
             var sb = new StringBuilder();
-            sb.Append("class UpgradeShop {\n");
-            sb.Append("  Upgrades: ").Append(Upgrades).Append("\n");
-            sb.Append("  Information: ").Append(Information).Append("\n");
+            sb.Append("class GameInfoExecutionInfo {\n");
+            sb.Append("  CurrentRegister: ").Append(CurrentRegister).Append("\n");
+            sb.Append("  CurrentRobot: ").Append(CurrentRobot).Append("\n");
             sb.Append("}\n");
             return sb.ToString();
         }
@@ -84,30 +91,27 @@ namespace Tgm.Roborally.Api.Model
         /// <returns>Boolean</returns>
         public override bool Equals(object input)
         {
-            return this.Equals(input as UpgradeShop);
+            return this.Equals(input as GameInfoExecutionInfo);
         }
 
         /// <summary>
-        /// Returns true if UpgradeShop instances are equal
+        /// Returns true if GameInfoExecutionInfo instances are equal
         /// </summary>
-        /// <param name="input">Instance of UpgradeShop to be compared</param>
+        /// <param name="input">Instance of GameInfoExecutionInfo to be compared</param>
         /// <returns>Boolean</returns>
-        public bool Equals(UpgradeShop input)
+        public bool Equals(GameInfoExecutionInfo input)
         {
             if (input == null)
                 return false;
 
             return 
                 (
-                    this.Upgrades == input.Upgrades ||
-                    this.Upgrades != null &&
-                    input.Upgrades != null &&
-                    this.Upgrades.SequenceEqual(input.Upgrades)
+                    this.CurrentRegister == input.CurrentRegister ||
+                    this.CurrentRegister.Equals(input.CurrentRegister)
                 ) && 
                 (
-                    this.Information == input.Information ||
-                    (this.Information != null &&
-                    this.Information.Equals(input.Information))
+                    this.CurrentRobot == input.CurrentRobot ||
+                    this.CurrentRobot.Equals(input.CurrentRobot)
                 );
         }
 
@@ -120,10 +124,8 @@ namespace Tgm.Roborally.Api.Model
             unchecked // Overflow is fine, just wrap
             {
                 int hashCode = 41;
-                if (this.Upgrades != null)
-                    hashCode = hashCode * 59 + this.Upgrades.GetHashCode();
-                if (this.Information != null)
-                    hashCode = hashCode * 59 + this.Information.GetHashCode();
+                hashCode = hashCode * 59 + this.CurrentRegister.GetHashCode();
+                hashCode = hashCode * 59 + this.CurrentRobot.GetHashCode();
                 return hashCode;
             }
         }
