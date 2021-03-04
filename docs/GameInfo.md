@@ -12,6 +12,7 @@ Name | Type | Description | Notes
 **MaxPlayers** | **int** | The maximum count of players that can participate in this game | 
 **CurrentPlayers** | **int** | The numbers of players in the game | 
 **ExecutionInfo** | [**GameInfoExecutionInfo**](GameInfoExecutionInfo.md) |  | 
+**PasswordProtected** | **bool** | True if the game has a password in order to join  | 
 
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
 
