@@ -1,5 +1,6 @@
 # Tgm.Roborally.Api.Model.LazerHitEvent
 Called when a player is hit by an 
+
 ## Properties
 
 Name | Type | Description | Notes

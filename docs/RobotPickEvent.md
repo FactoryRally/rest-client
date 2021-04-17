@@ -1,5 +1,6 @@
 # Tgm.Roborally.Api.Model.RobotPickEvent
 Triggered when a robot is assigned to a player
+
 ## Properties
 
 Name | Type | Description | Notes

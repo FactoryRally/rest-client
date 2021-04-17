@@ -1,5 +1,6 @@
 # Tgm.Roborally.Api.Model.GameInfoExecutionInfo
 Information abou the executon cycle
+
 ## Properties
 
 Name | Type | Description | Notes

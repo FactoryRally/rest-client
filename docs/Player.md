@@ -1,5 +1,6 @@
 # Tgm.Roborally.Api.Model.Player
 A player attending in a game. #### Warning This is **not** permanent. It is created and removed with the game (or with you joining and leaving the game)
+
 ## Properties
 
 Name | Type | Description | Notes

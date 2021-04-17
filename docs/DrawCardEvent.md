@@ -1,5 +1,6 @@
 # Tgm.Roborally.Api.Model.DrawCardEvent
 The event that occurs if a player gets his programming cards
+
 ## Properties
 
 Name | Type | Description | Notes

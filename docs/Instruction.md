@@ -1,5 +1,6 @@
 # Tgm.Roborally.Api.Model.Instruction
 Defines what a command will do
+
 ## Properties
 
 Name | Type | Description | Notes

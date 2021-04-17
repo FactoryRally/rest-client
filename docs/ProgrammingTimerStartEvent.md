@@ -1,4 +1,5 @@
 # Tgm.Roborally.Api.Model.ProgrammingTimerStartEvent
+
 ## Properties
 
 Name | Type | Description | Notes

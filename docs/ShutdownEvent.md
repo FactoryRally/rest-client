@@ -1,5 +1,6 @@
 # Tgm.Roborally.Api.Model.ShutdownEvent
 When a robot reboots
+
 ## Properties
 
 Name | Type | Description | Notes

@@ -1,5 +1,6 @@
 # Tgm.Roborally.Api.Model.MapInfo
 Describes the map *without* the tiles
+
 ## Properties
 
 Name | Type | Description | Notes

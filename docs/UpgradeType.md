@@ -1,5 +1,6 @@
 # Tgm.Roborally.Api.Model.UpgradeType
 Defines the type (the code/actions) this card will have * `generator` : Generates *x* energy every round
+
 ## Properties
 
 Name | Type | Description | Notes

@@ -1,5 +1,6 @@
 # Tgm.Roborally.Api.Model.ActionType
 Defines what an action will do
+
 ## Properties
 
 Name | Type | Description | Notes

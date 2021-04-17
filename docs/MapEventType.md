@@ -1,5 +1,6 @@
 # Tgm.Roborally.Api.Model.MapEventType
 The event that occurs if the active map elements are activated
+
 ## Properties
 
 Name | Type | Description | Notes

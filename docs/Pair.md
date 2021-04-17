@@ -1,5 +1,6 @@
 # Tgm.Roborally.Api.Model.Pair
 A named value. A pair of an index and value. (Part of a map)
+
 ## Properties
 
 Name | Type | Description | Notes

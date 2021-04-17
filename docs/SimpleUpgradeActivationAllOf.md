@@ -1,4 +1,5 @@
 # Tgm.Roborally.Api.Model.SimpleUpgradeActivationAllOf
+
 ## Properties
 
 Name | Type | Description | Notes

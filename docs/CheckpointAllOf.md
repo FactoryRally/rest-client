@@ -1,4 +1,5 @@
 # Tgm.Roborally.Api.Model.CheckpointAllOf
+
 ## Properties
 
 Name | Type | Description | Notes

@@ -1,5 +1,6 @@
 # Tgm.Roborally.Api.Model.Rotation
 Defines wether to turn left or right
+
 ## Properties
 
 Name | Type | Description | Notes

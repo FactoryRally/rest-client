@@ -1,5 +1,6 @@
 # Tgm.Roborally.Api.Model.ShootEvent
 Event if a player shoots a lazer
+
 ## Properties
 
 Name | Type | Description | Notes

@@ -1,5 +1,6 @@
 # Tgm.Roborally.Api.Model.GameInfo
 Describes the current state of the game. It does not includes the gamedata (like players/poitions/field) but general information.  This is read only
+
 ## Properties
 
 Name | Type | Description | Notes

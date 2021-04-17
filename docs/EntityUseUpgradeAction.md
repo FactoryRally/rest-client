@@ -1,5 +1,6 @@
 # Tgm.Roborally.Api.Model.EntityUseUpgradeAction
 The action to make an entity use an upgade card (including the actions which require additional information)
+
 ## Properties
 
 Name | Type | Description | Notes

@@ -1,5 +1,6 @@
 # Tgm.Roborally.Api.Model.TileType
 The type defines the function of a tile and how it is displayed. The behaviour is unknown to the client
+
 ## Properties
 
 Name | Type | Description | Notes

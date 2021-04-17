@@ -1,4 +1,5 @@
 # Tgm.Roborally.Api.Model.Robots
+
 ## Properties
 
 Name | Type | Description | Notes

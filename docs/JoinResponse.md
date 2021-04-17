@@ -1,5 +1,6 @@
 # Tgm.Roborally.Api.Model.JoinResponse
 All the data you need as you joined a game.
+
 ## Properties
 
 Name | Type | Description | Notes

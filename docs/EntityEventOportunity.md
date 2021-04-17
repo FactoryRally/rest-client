@@ -1,5 +1,6 @@
 # Tgm.Roborally.Api.Model.EntityEventOportunity
 The oportunity to perfom an action / event
+
 ## Properties
 
 Name | Type | Description | Notes

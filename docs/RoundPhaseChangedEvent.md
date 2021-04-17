@@ -1,5 +1,6 @@
 # Tgm.Roborally.Api.Model.RoundPhaseChangedEvent
 Occurs when the next phase of the round starts
+
 ## Properties
 
 Name | Type | Description | Notes

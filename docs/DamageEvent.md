@@ -1,5 +1,6 @@
 # Tgm.Roborally.Api.Model.DamageEvent
 Happens when a entity takes damage
+
 ## Properties
 
 Name | Type | Description | Notes

@@ -1,5 +1,6 @@
 # Tgm.Roborally.Api.Model.Tile
 A tile is a square at the Game field<br> **Note:**  * `direction` is only aviable for belts * properties with a `rotator-` prefix are only aviable for rotator (parts)
+
 ## Properties
 
 Name | Type | Description | Notes
