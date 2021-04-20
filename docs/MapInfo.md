@@ -5,8 +5,6 @@ Describes the map *without* the tiles
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**Width** | **int** |  | [optional] 
-**Height** | **int** |  | [optional] 
 **PrioBeacon** | [**Position**](Position.md) |  | [optional] 
 **Name** | **string** | The default rule for names in the game | [optional] 
 
