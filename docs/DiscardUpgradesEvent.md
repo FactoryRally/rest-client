@@ -1,6 +1,5 @@
 # Tgm.Roborally.Api.Model.DiscardUpgradesEvent
 This event is fired when a player exchanges or actively discards upgrades. The upgrades are removed from the game (but still accessible) 
-
 ## Properties
 
 Name | Type | Description | Notes

@@ -1,6 +1,5 @@
 # Tgm.Roborally.Api.Model.Action
 A queued action. Actions are executed in their adding sequence which is represented by their index
-
 ## Properties
 
 Name | Type | Description | Notes

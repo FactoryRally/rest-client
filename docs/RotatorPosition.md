@@ -1,6 +1,5 @@
 # Tgm.Roborally.Api.Model.RotatorPosition
 The rotator blocks consist of 4 blocks. This 4 blocks can be differenciated by this property
-
 ## Properties
 
 Name | Type | Description | Notes

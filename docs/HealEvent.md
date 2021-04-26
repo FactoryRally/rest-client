@@ -1,6 +1,5 @@
 # Tgm.Roborally.Api.Model.HealEvent
 When a robot is healed
-
 ## Properties
 
 Name | Type | Description | Notes

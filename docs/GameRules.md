@@ -1,6 +1,5 @@
 # Tgm.Roborally.Api.Model.GameRules
 Game Rules define the rules for a Game
-
 ## Properties
 
 Name | Type | Description | Notes

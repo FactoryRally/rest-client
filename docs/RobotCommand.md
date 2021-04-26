@@ -1,6 +1,5 @@
 # Tgm.Roborally.Api.Model.RobotCommand
 A command for a robot to execute
-
 ## Properties
 
 Name | Type | Description | Notes

@@ -1,6 +1,5 @@
 # Tgm.Roborally.Api.Model.JoinEvent
 If somebody joins a game
-
 ## Properties
 
 Name | Type | Description | Notes

@@ -1,6 +1,5 @@
 # Tgm.Roborally.Api.Model.GameEndEvent
 The game is over
-
 ## Properties
 
 Name | Type | Description | Notes

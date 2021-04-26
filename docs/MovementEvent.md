@@ -1,6 +1,5 @@
 # Tgm.Roborally.Api.Model.MovementEvent
 Describes the movement of a entity
-
 ## Properties
 
 Name | Type | Description | Notes

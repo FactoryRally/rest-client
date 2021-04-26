@@ -1,6 +1,5 @@
 # Tgm.Roborally.Api.Model.Entity
 Describes a actor at the game board. Not to be confused with `Player` which is the person controlling the Entity. <br> this will *most likely* be a player controlled robot but it also can be a AI controlled Entity or robot > We did use Entity instead of the word Robot or bot because the word *bot* is used for the AIs controlling the robot. And also because theoretial a entity can be a not robot entity
-
 ## Properties
 
 Name | Type | Description | Notes

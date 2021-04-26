@@ -1,6 +1,5 @@
 # Tgm.Roborally.Api.Model.ErrorMessage
 A message about that went wrong. Usefull to display users a short and usefull prompt
-
 ## Properties
 
 Name | Type | Description | Notes

@@ -1,5 +1,4 @@
 # Tgm.Roborally.Api.Model.UpgradeShopInformation
-
 ## Properties
 
 Name | Type | Description | Notes

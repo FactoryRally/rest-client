@@ -1,6 +1,5 @@
 # Tgm.Roborally.Api.Model.EventType
 Describes what the event is about
-
 ## Properties
 
 Name | Type | Description | Notes

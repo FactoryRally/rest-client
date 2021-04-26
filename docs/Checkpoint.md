@@ -1,6 +1,5 @@
 # Tgm.Roborally.Api.Model.Checkpoint
 Checkpoints are entities
-
 ## Properties
 
 Name | Type | Description | Notes

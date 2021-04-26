@@ -1,6 +1,5 @@
 # Tgm.Roborally.Api.Model.UpgradeShop
 A shop to buy upgrades from. Each element is buyable once and then vanishes from the list
-
 ## Properties
 
 Name | Type | Description | Notes

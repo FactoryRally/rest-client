@@ -1,6 +1,5 @@
 # Tgm.Roborally.Api.Model.Map
 The map including the tiles
-
 ## Properties
 
 Name | Type | Description | Notes

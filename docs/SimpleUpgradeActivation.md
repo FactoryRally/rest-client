@@ -1,6 +1,5 @@
 # Tgm.Roborally.Api.Model.SimpleUpgradeActivation
 type is allways `use-upgrade`
-
 ## Properties
 
 Name | Type | Description | Notes

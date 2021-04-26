@@ -1,6 +1,5 @@
 # Tgm.Roborally.Api.Model.MapEvent
 Events that takes place with the active components of the map
-
 ## Properties
 
 Name | Type | Description | Notes

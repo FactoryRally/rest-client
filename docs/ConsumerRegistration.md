@@ -1,6 +1,5 @@
 # Tgm.Roborally.Api.Model.ConsumerRegistration
 Data to describe a consumer
-
 ## Properties
 
 Name | Type | Description | Notes

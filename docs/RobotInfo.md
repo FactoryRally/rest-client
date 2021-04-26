@@ -1,6 +1,5 @@
 # Tgm.Roborally.Api.Model.RobotInfo
 Describes the state/stats of a robot
-
 ## Properties
 
 Name | Type | Description | Notes

@@ -1,6 +1,5 @@
 # Tgm.Roborally.Api.Model.Game
 A Game is like a lobby, people can join/leave.<br> A Game is created by a host who does *not* needs to attend the game as a player but in the most cases he will. This is *read-only*
-
 ## Properties
 
 Name | Type | Description | Notes

@@ -1,6 +1,5 @@
 # Tgm.Roborally.Api.Model.EntityActionPhase
 The moment at which a entity action can be performed
-
 ## Properties
 
 Name | Type | Description | Notes

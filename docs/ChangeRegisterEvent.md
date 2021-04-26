@@ -1,6 +1,5 @@
 # Tgm.Roborally.Api.Model.ChangeRegisterEvent
 The event when a player places or removes an robot command from/to a register
-
 ## Properties
 
 Name | Type | Description | Notes

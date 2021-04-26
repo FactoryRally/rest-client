@@ -1,6 +1,5 @@
 # Tgm.Roborally.Api.Model.EntityAction
 The base type for entity actions between registers
-
 ## Properties
 
 Name | Type | Description | Notes

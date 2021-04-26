@@ -1,6 +1,5 @@
 # Tgm.Roborally.Api.Model.PauseEvent
 Describes the event when the game is paused or unpaused
-
 ## Properties
 
 Name | Type | Description | Notes

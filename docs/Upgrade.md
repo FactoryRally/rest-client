@@ -1,6 +1,5 @@
 # Tgm.Roborally.Api.Model.Upgrade
 A upgrade is a module making a robot stronger
-
 ## Properties
 
 Name | Type | Description | Notes

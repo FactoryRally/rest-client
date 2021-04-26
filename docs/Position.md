@@ -1,6 +1,5 @@
 # Tgm.Roborally.Api.Model.Position
 Describes a point in a 2D system, without decimals
-
 ## Properties
 
 Name | Type | Description | Notes

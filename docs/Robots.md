@@ -1,5 +1,5 @@
 # Tgm.Roborally.Api.Model.Robots
-
+the type of a robot
 ## Properties
 
 Name | Type | Description | Notes

@@ -1,6 +1,5 @@
 # Tgm.Roborally.Api.Model.PurchaseEvent
 The event that occurs if a player buys an upgrade
-
 ## Properties
 
 Name | Type | Description | Notes

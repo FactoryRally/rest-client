@@ -1,6 +1,5 @@
 # Tgm.Roborally.Api.Model.EnergyGainEvent
 When a robot gains energy
-
 ## Properties
 
 Name | Type | Description | Notes

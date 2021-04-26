@@ -1,6 +1,5 @@
 # Tgm.Roborally.Api.Model.RobotStartExecEvent
 When a robot is about to execute a programming card/statement
-
 ## Properties
 
 Name | Type | Description | Notes
