@@ -13,7 +13,6 @@ Name | Type | Description | Notes
 **CurrentPlayers** | **int** | The numbers of players in the game | 
 **ExecutionInfo** | [**GameInfoExecutionInfo**](GameInfoExecutionInfo.md) |  | 
 **PasswordProtected** | **bool** | True if the game has a password in order to join  | 
-**AnimationDelay** | **int** | The delay in &#x60;ms&#x60; that will be used to give clients the oportulity to play animations after executed commands and other animatable events | [default to 1500]
 
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
 

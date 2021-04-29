@@ -5,7 +5,7 @@ A tile is a square at the Game field<br> **Note:**  * `direction` is only aviabl
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **Type** | **TileType** |  | 
-**Empty** | **bool** | If there is no entity at the tile this is true | [optional] 
+**Empty** | **bool** | If there is no player at the tile this is true | [optional] 
 **Direction** | **Direction** |  | [optional] 
 **RotatorDirection** | **Rotation** |  | [optional] 
 **Level** | **int** | The height of the tile. 1 &#x3D; default | [default to 1]

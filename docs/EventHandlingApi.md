@@ -10,7 +10,7 @@ Method | HTTP request | Description
 
 <a name="fetchnextevent"></a>
 # **FetchNextEvent**
-> GenericEvent FetchNextEvent (int gameId, bool? wait = null)
+> GenericEvent FetchNextEvent (int gameId)
 
 Get next event
 
@@ -39,12 +39,11 @@ namespace Example
 
             var apiInstance = new EventHandlingApi(config);
             var gameId = 56;  // int | The id of the game to interact with
-            var wait = true;  // bool? | If this is true the server will not responde until there is an event. This prevents fast fetching/active waiting. The server will leave the connection open. > Keep in mind that the connection might times out of no event occurs within the timeout time-frame (optional)  (default to false)
 
             try
             {
                 // Get next event
-                GenericEvent result = apiInstance.FetchNextEvent(gameId, wait);
+                GenericEvent result = apiInstance.FetchNextEvent(gameId);
                 Debug.WriteLine(result);
             }
             catch (ApiException  e)
@@ -63,7 +62,6 @@ namespace Example
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **gameId** | **int**| The id of the game to interact with | 
- **wait** | **bool?**| If this is true the server will not responde until there is an event. This prevents fast fetching/active waiting. The server will leave the connection open. &gt; Keep in mind that the connection might times out of no event occurs within the timeout time-frame | [optional] [default to false]
 
 ### Return type
 

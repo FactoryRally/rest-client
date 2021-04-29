@@ -10,7 +10,6 @@ Name | Type | Description | Notes
 **RobotsPerPlayer** | **int** | Defines the number of robots per player | [optional] 
 **Password** | **string** | The password of a game | [optional] 
 **FillWithBots** | **bool** | If true emply player slots are going to be filled up with AI enemys | [optional] [default to false]
-**AnimationDelay** | **int** | Sets GameInfo.animation-delay | [optional] [default to 1500]
 
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
 

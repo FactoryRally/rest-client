@@ -236,7 +236,7 @@ This endpoint does not need any parameter.
 
 <a name="savemap"></a>
 # **SaveMap**
-> void SaveMap (string name, Map map = null)
+> void SaveMap (Map map = null)
 
 Save Map
 
@@ -264,13 +264,12 @@ namespace Example
             // config.AddApiKeyPrefix("skey", "Bearer");
 
             var apiInstance = new MapRepoApi(config);
-            var name = name_example;  // string | The name of the map
             var map = new Map(); // Map | The map to save (optional) 
 
             try
             {
                 // Save Map
-                apiInstance.SaveMap(name, map);
+                apiInstance.SaveMap(map);
             }
             catch (ApiException  e)
             {
@@ -287,7 +286,6 @@ namespace Example
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **name** | **string**| The name of the map | 
  **map** | [**Map**](Map.md)| The map to save | [optional] 
 
 ### Return type
